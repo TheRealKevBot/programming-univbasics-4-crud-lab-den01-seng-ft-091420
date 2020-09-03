@@ -8,15 +8,17 @@ end
 
 def add_element_to_end_of_array(array, element)
   pets = ["Boots", "Odi"]
-  pets.push
+  pets.push("Kona")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  pets = ["Odi", "Kona"]
+  pets.unshift("Boots")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  pets = ["Boots", "Odi", "Kona", "Jeff"]
+  pets.pop("Jeff")
 end
 
 def remove_element_from_start_of_array(array)
